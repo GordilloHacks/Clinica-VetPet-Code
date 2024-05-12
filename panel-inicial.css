@@ -1,0 +1,541 @@
+.encabezado-fondo-icon {
+  width: 100%;
+  height: 162px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-person {
+  position: absolute;
+  height: calc(100% - 8px);
+  top: 2px;
+  bottom: 6px;
+  left: 0;
+  max-height: 100%;
+  width: 64.1px;
+  z-index: 1;
+}
+.administrador,
+.hola-andrs {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-abeezee);
+  outline: 0;
+  position: relative;
+  color: var(--color-gray-100);
+  z-index: 1;
+}
+.hola-andrs {
+  font-size: var(--font-size-11xl);
+  align-self: stretch;
+  font-weight: 700;
+  text-align: center;
+}
+.administrador {
+  font-size: var(--font-size-6xl);
+  height: 33px;
+  flex: 1;
+  text-align: left;
+  display: inline-block;
+}
+.administrador-wrapper,
+.hola-andrs-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.administrador-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xl);
+}
+.hola-andrs-parent {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  width: 289.5px;
+  flex-direction: column;
+}
+.icon-person-parent {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  width: 343.5px;
+  height: 66px;
+}
+.logo-cerrar-sesion {
+  position: relative;
+  background-image: url(./public/logo-cerrar-sesion1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.logo-cerrar-sesion-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-48xl-2) 0 var(--padding-48xl);
+}
+.cerrar-sesin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 700;
+  font-family: var(--font-abeezee);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-container {
+  position: absolute;
+  top: 36px;
+  left: 1232.6px;
+  width: 221.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.logo-icon1 {
+  width: 398.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.logo-wrapper {
+  width: 735px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.selecciona-el-servicio {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-abeezee);
+  font-size: var(--font-size-6xl);
+  outline: 0;
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  color: var(--color-gray-400);
+  text-align: center;
+  display: inline-block;
+}
+.frame-div {
+  position: absolute;
+  top: 0;
+  left: 315px;
+  width: 763px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.frame-group,
+.linea-abajo-seleccion {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.frame-group {
+  height: 278px;
+}
+.linea-abajo-seleccion {
+  width: 573px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.frame-parent,
+.linea-abajo-seleccion-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.linea-abajo-seleccion-wrapper {
+  width: 1396px;
+  height: 1px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frame-parent {
+  width: 1474px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xs);
+}
+.informacion-personal-child {
+  height: 184px;
+  width: 374px;
+  position: relative;
+  border-radius: var(--br-mini);
+  display: none;
+  max-width: 100%;
+}
+.informacin,
+.personal {
+  margin: 0;
+}
+.informacin-personal {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-400);
+  text-align: center;
+  z-index: 1;
+}
+.informacion-personal,
+.procedimientos-child {
+  width: 374px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.informacion-personal {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-43xl) var(--padding-4xl) var(--padding-33xl)
+    var(--padding-15xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.guarderia:hover,
+.informacion-personal:hover,
+.preguntas-frecuentes:hover,
+.procedimientos:hover,
+.servicios:hover,
+.vacunacion:hover {
+  background-color: var(--color-seagreen-300);
+}
+.procedimientos-child {
+  height: 184px;
+  position: relative;
+  display: none;
+}
+.gestin-de-colaboradores {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-200);
+  text-align: center;
+  z-index: 1;
+}
+.procedimientos,
+.vacunacion-child {
+  width: 374px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.procedimientos {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-43xl) var(--padding-57xl) var(--padding-33xl)
+    var(--padding-58xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.vacunacion-child {
+  height: 184px;
+  position: relative;
+  display: none;
+}
+.gestin-de-proveedores {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 28px;
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-400);
+  text-align: center;
+  z-index: 1;
+}
+.guarderia-child,
+.vacunacion {
+  width: 374px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.vacunacion {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-38xl) var(--padding-57xl) var(--padding-38xl)
+    var(--padding-58xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.guarderia-child {
+  height: 184px;
+  position: relative;
+  display: none;
+}
+.procedimientos-citas-mdicas {
+  height: 108px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-400);
+  white-space: pre-wrap;
+  text-align: center;
+  z-index: 1;
+}
+.guarderia,
+.servicios-child {
+  width: 374px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.guarderia {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-19xl) var(--padding-57xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.servicios-child {
+  height: 184px;
+  position: relative;
+  display: none;
+}
+.gestin-de-recordatorios {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-200);
+  text-align: center;
+  z-index: 1;
+}
+.preguntas-frecuentes-child,
+.servicios {
+  height: 184px;
+  width: 374px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.servicios {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-29xl) var(--padding-57xl) var(--padding-29xl)
+    var(--padding-58xl);
+  background-color: var(--color-mediumseagreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.preguntas-frecuentes-child {
+  position: relative;
+  display: none;
+}
+.precios-y-servicios {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  font-family: var(--font-abeezee);
+  color: var(--color-gray-400);
+  text-align: center;
+  z-index: 1;
+}
+.preguntas-frecuentes {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-29xl) var(--padding-57xl) var(--padding-29xl)
+    var(--padding-58xl);
+  background-color: var(--color-mediumseagreen);
+  height: 184px;
+  width: 374px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.informacion-personal-parent,
+.panel-inicial-inner,
+.preguntas-frecuentes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.informacion-personal-parent {
+  width: 1164px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 28px 19px;
+  min-height: 396px;
+}
+.panel-inicial-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) var(--padding-7xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.copyright-20241,
+.copyrigth1 {
+  position: relative;
+  max-width: 100%;
+}
+.copyrigth1 {
+  height: 81px;
+  width: 1512px;
+  background-color: var(--color-seagreen-100);
+  display: none;
+}
+.copyright-20241 {
+  width: 538px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pie-de-pagina1 {
+  align-self: stretch;
+  background-color: var(--color-seagreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-abeezee);
+}
+.panel-inicial {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-75xl);
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 750px) {
+  .panel-inicial {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cerrar-sesin,
+  .gestin-de-colaboradores,
+  .informacin-personal,
+  .selecciona-el-servicio {
+    font-size: var(--font-size-xl);
+  }
+  .procedimientos {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .gestin-de-proveedores {
+    font-size: var(--font-size-xl);
+  }
+  .vacunacion {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .procedimientos-citas-mdicas {
+    font-size: var(--font-size-xl);
+  }
+  .guarderia {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .gestin-de-recordatorios {
+    font-size: var(--font-size-xl);
+  }
+  .servicios {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .precios-y-servicios {
+    font-size: var(--font-size-xl);
+  }
+  .preguntas-frecuentes {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyright-20241 {
+    font-size: var(--font-size-lg);
+  }
+  .panel-inicial {
+    gap: var(--gap-4xl);
+  }
+}
