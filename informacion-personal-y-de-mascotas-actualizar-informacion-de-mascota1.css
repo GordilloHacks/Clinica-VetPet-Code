@@ -281,7 +281,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child35 {
+.frame-child34 {
   height: 84px;
   width: 275px;
   position: relative;
@@ -544,13 +544,13 @@
   box-sizing: border-box;
   min-width: 335px;
 }
-.frame-child36,
+.frame-child35,
 .seleccionar-animal-icon {
   position: relative;
   display: none;
   max-width: 100%;
 }
-.frame-child36 {
+.frame-child35 {
   width: 507px;
   height: 504px;
   border-radius: var(--br-xl);
@@ -923,7 +923,7 @@
   align-items: flex-end;
   gap: 9.4px;
 }
-.frame-child37 {
+.frame-child36 {
   height: 41.4px;
   width: 234px;
   position: relative;
@@ -951,12 +951,12 @@
   z-index: 2;
 }
 .frame-wrapper24,
-.rectangle-parent26 {
+.rectangle-parent25 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.rectangle-parent26 {
+.rectangle-parent25 {
   width: 234px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-6xl);
@@ -972,7 +972,7 @@
   justify-content: center;
   max-width: 100%;
 }
-.rectangle-parent25 {
+.rectangle-parent24 {
   align-self: stretch;
   border-radius: var(--br-xl);
   background-color: var(--color-seagreen-100);
@@ -1092,7 +1092,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .rectangle-parent25 {
+  .rectangle-parent24 {
     padding: var(--padding-13xl) var(--padding-4xl) var(--padding-22xl);
     box-sizing: border-box;
   }

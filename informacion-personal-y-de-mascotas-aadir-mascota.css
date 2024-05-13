@@ -227,7 +227,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child23 {
+.frame-child22 {
   position: absolute;
   height: calc(100% - 13px);
   top: 6px;
@@ -354,14 +354,14 @@
   gap: var(--gap-31xl);
   max-width: 100%;
 }
-.frame-child24,
+.frame-child23,
 .informacion-personal-y2 {
   width: 486px;
   position: relative;
   display: inline-block;
   max-width: 100%;
 }
-.frame-child24 {
+.frame-child23 {
   width: 968px;
   height: 602px;
   border-radius: var(--br-3xs);
@@ -505,8 +505,8 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.input-fields-container,
-.input-fields1,
+.input-fields,
+.input-fields-wrapper,
 .seleccionar-sede5 {
   display: flex;
   align-items: flex-start;
@@ -529,16 +529,16 @@
   min-width: 250px;
   z-index: 1;
 }
-.input-fields-container,
-.input-fields1 {
+.input-fields,
+.input-fields-wrapper {
   flex-direction: column;
   max-width: 100%;
 }
-.input-fields1 {
+.input-fields {
   align-self: stretch;
   gap: var(--gap-2xl);
 }
-.input-fields-container {
+.input-fields-wrapper {
   flex: 1;
   padding: var(--padding-4xs) 0 0;
   box-sizing: border-box;
@@ -628,7 +628,7 @@
   position: relative;
 }
 .add-button-container-wrapper,
-.rectangle-parent16 {
+.rectangle-parent15 {
   width: 701px;
   display: flex;
   flex-direction: row;
@@ -636,7 +636,7 @@
   justify-content: center;
   max-width: 100%;
 }
-.rectangle-parent16 {
+.rectangle-parent15 {
   width: 968px;
   border-radius: var(--br-3xs);
   background-color: var(--color-seagreen-400);
@@ -752,7 +752,7 @@
     flex-wrap: wrap;
     gap: var(--gap-12xl);
   }
-  .rectangle-parent16 {
+  .rectangle-parent15 {
     padding-left: var(--padding-11xl);
     padding-right: var(--padding-22xl);
     box-sizing: border-box;
@@ -768,7 +768,7 @@
   .agrega-una-nueva-mascota-a-tu-parent {
     flex-wrap: wrap;
   }
-  .rectangle-parent16 {
+  .rectangle-parent15 {
     padding-top: var(--padding-15xl);
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;

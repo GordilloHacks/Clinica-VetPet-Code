@@ -247,7 +247,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child25 {
+.frame-child24 {
   position: absolute;
   height: calc(100% - 13px);
   top: 6px;
@@ -365,7 +365,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child26 {
+.frame-child25 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -444,13 +444,13 @@
   padding: 0 var(--padding-xl);
 }
 .foto-mascota-conejo-group,
-.rectangle-parent17 {
+.rectangle-parent16 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent17 {
+.rectangle-parent16 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -477,7 +477,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child27 {
+.frame-child26 {
   align-self: stretch;
   height: 134px;
   position: relative;
@@ -556,13 +556,13 @@
   padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
 }
 .foto-mascota-pajaro-group,
-.rectangle-parent18 {
+.rectangle-parent17 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent18 {
+.rectangle-parent17 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -611,7 +611,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-child28 {
+.frame-child27 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -690,13 +690,13 @@
   padding: 0 var(--padding-3xl);
 }
 .foto-mascota-perro-group,
-.rectangle-parent19 {
+.rectangle-parent18 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent19 {
+.rectangle-parent18 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -720,7 +720,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-child29 {
+.frame-child28 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -798,7 +798,7 @@
   align-self: stretch;
   padding: 0 var(--padding-8xs);
 }
-.rectangle-parent20 {
+.rectangle-parent19 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -812,7 +812,7 @@
 }
 .foto-mascota-gato-group,
 .frame-parent32,
-.rectangle-parent20 {
+.rectangle-parent19 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;

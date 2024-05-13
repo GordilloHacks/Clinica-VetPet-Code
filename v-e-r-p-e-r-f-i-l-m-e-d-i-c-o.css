@@ -286,7 +286,7 @@
   padding: 0 var(--padding-4xl) 0 23.5px;
   box-sizing: border-box;
 }
-.frame-item {
+.frame-child {
   height: 56px;
   width: 282px;
   position: relative;
@@ -301,13 +301,13 @@
   position: relative;
   z-index: 3;
 }
-.frame-inner,
-.rectangle-parent1 {
+.frame-item,
+.rectangle-container {
   border-radius: var(--br-xl);
   background-color: var(--color-gray-100);
   border: 1px solid var(--color-darkgray);
 }
-.rectangle-parent1 {
+.rectangle-container {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -315,7 +315,7 @@
   justify-content: flex-start;
   padding: var(--padding-2xs) var(--padding-5xl-5) var(--padding-sm);
 }
-.frame-inner {
+.frame-item {
   height: 56px;
   width: 282px;
   position: relative;
@@ -332,13 +332,13 @@
   z-index: 4;
 }
 .frame,
-.rectangle-parent2 {
+.rectangle-parent1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent2 {
+.rectangle-parent1 {
   flex: 1;
   border-radius: var(--br-xl);
   background-color: var(--color-gray-100);
@@ -508,7 +508,7 @@
   padding: 0 var(--padding-5xl);
   box-sizing: border-box;
 }
-.rectangle-div {
+.frame-inner {
   height: 56px;
   width: 282px;
   position: relative;
@@ -573,7 +573,7 @@
   padding: 0 var(--padding-mini);
   box-sizing: border-box;
 }
-.frame-child1 {
+.rectangle-div {
   height: 56px;
   width: 282px;
   position: relative;
@@ -591,7 +591,7 @@
   flex-shrink: 0;
   z-index: 3;
 }
-.footer,
+.footer1,
 .frame3 {
   display: flex;
   align-items: flex-start;
@@ -610,7 +610,7 @@
   font-size: var(--font-size-4xl);
   color: var(--color-dimgray-200);
 }
-.footer {
+.footer1 {
   width: 282px;
   flex-direction: column;
   gap: var(--gap-12xs);
@@ -641,7 +641,7 @@
   padding: 0 var(--padding-mini);
   box-sizing: border-box;
 }
-.frame-child2 {
+.frame-child1 {
   height: 56px;
   width: 282px;
   position: relative;

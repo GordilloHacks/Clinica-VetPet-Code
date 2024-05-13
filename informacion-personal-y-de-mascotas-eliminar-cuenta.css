@@ -234,7 +234,7 @@
   padding: 0 0 var(--padding-9xl) var(--padding-mini);
   box-sizing: border-box;
 }
-.frame-child38 {
+.frame-child37 {
   position: absolute;
   top: 6px;
   left: 0;
@@ -357,14 +357,14 @@
   color: var(--color-gray-200);
   text-align: left;
 }
-.frame-child39,
+.frame-child38,
 .frame-parent67 {
   border-radius: var(--br-11xl);
   border: 1px solid var(--color-darkgray);
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child39 {
+.frame-child38 {
   width: 594px;
   height: 207px;
   position: relative;
@@ -392,7 +392,7 @@
   justify-content: flex-end;
   padding: 0 var(--padding-xl-2) 0 var(--padding-2xl);
 }
-.frame-child40 {
+.frame-child39 {
   border: 1px solid var(--color-darkgray);
   outline: 0;
   background-color: var(--color-white);
@@ -422,7 +422,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child41 {
+.frame-child40 {
   position: absolute;
   top: 13px;
   left: 0;

@@ -274,7 +274,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-child30 {
+.frame-child29 {
   height: 84px;
   width: 275px;
   position: relative;
@@ -373,7 +373,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child31 {
+.frame-child30 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -452,13 +452,13 @@
   padding: 0 var(--padding-xl);
 }
 .foto-mascota-conejo-container,
-.rectangle-parent21 {
+.rectangle-parent20 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent21 {
+.rectangle-parent20 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -507,7 +507,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child32 {
+.frame-child31 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -578,7 +578,7 @@
 .boton-ver-mas-wrapper3,
 .boton-ver-mas5,
 .pet-list,
-.rectangle-parent22 {
+.rectangle-parent21 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -589,10 +589,10 @@
   padding: 0 var(--padding-3xl);
 }
 .pet-list,
-.rectangle-parent22 {
+.rectangle-parent21 {
   flex-direction: column;
 }
-.rectangle-parent22 {
+.rectangle-parent21 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -615,7 +615,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child33 {
+.frame-child32 {
   width: 200px;
   height: 134px;
   position: relative;
@@ -686,7 +686,7 @@
 .boton-ver-mas-wrapper4,
 .boton-ver-mas6,
 .pet-list1,
-.rectangle-parent23 {
+.rectangle-parent22 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -697,10 +697,10 @@
   padding: 0 var(--padding-8xs);
 }
 .pet-list1,
-.rectangle-parent23 {
+.rectangle-parent22 {
   flex-direction: column;
 }
-.rectangle-parent23 {
+.rectangle-parent22 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -724,7 +724,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child34 {
+.frame-child33 {
   align-self: stretch;
   height: 134px;
   position: relative;
@@ -802,7 +802,7 @@
   align-self: stretch;
   padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
 }
-.rectangle-parent24 {
+.rectangle-parent23 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -816,7 +816,7 @@
 }
 .pet-list-parent,
 .pet-list2,
-.rectangle-parent24 {
+.rectangle-parent23 {
   align-items: flex-start;
   justify-content: flex-start;
 }

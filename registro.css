@@ -55,14 +55,14 @@
   justify-content: center;
   padding: 0 var(--padding-2xl) 0 var(--padding-xl);
 }
-.input-fields-item {
+.input-fields-child {
   align-self: stretch;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: flex-end;
   padding: var(--padding-xs) var(--padding-base-5) 2.599999999999909px;
 }
-.input-fields-inner,
+.input-fields-child,
 .input-fields-item,
 .input-labels {
   width: 100%;
@@ -79,7 +79,7 @@
   color: var(--color-darkgray);
   min-width: 250px;
 }
-.input-fields-inner {
+.input-fields-item {
   align-self: stretch;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -93,7 +93,7 @@
   z-index: 2;
 }
 .form-content,
-.input-fields2,
+.input-fields1,
 .input-labels,
 .input-labels1 {
   align-self: stretch;
@@ -118,10 +118,10 @@
   z-index: 1;
 }
 .form-content,
-.input-fields2 {
+.input-fields1 {
   flex-direction: column;
 }
-.input-fields2 {
+.input-fields1 {
   align-items: flex-end;
   gap: 17.3px;
 }
