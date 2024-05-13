@@ -1,4 +1,4 @@
-.encabezado-fondo2 {
+.encabezado-fondo1 {
   align-self: stretch;
   width: 1511px;
   position: relative;
@@ -14,7 +14,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.encabezado4 {
+.encabezado3 {
   align-self: stretch;
   background-color: var(--color-seagreen-100);
   display: flex;
@@ -142,7 +142,7 @@
   height: 50px;
   flex: 1;
   position: relative;
-  font-size: 21px;
+  font-size: var(--font-size-2xl);
   font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: center;
@@ -180,7 +180,7 @@
   flex: 1;
   font-size: var(--font-size-10xl);
   display: inline-block;
-  font-family: var(--font-phetsarath);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   z-index: 1;
@@ -193,7 +193,7 @@
 .boton1 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-6xs) var(--padding-6xs) 5.1px;
+  padding: var(--padding-6xs) var(--padding-6xs) var(--padding-7xs-1);
   background-color: var(--color-seagreen-200);
   width: 470.5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -213,10 +213,10 @@
   justify-content: center;
   padding: 0 0 0 var(--padding-11xs);
 }
-.body1,
+.body,
 .button-area,
 .form-container,
-.main-content1 {
+.main-content2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -231,11 +231,11 @@
   padding: var(--padding-19xl) 89px var(--padding-19xl) 87px;
   gap: var(--gap-4xl);
 }
-.body1,
-.main-content1 {
+.body,
+.main-content2 {
   align-self: stretch;
 }
-.body1 {
+.body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
@@ -245,7 +245,7 @@
   color: var(--color-gray-300);
   font-family: var(--font-roboto);
 }
-.main-content1 {
+.main-content2 {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
@@ -311,11 +311,11 @@
     font-size: var(--font-size-13xl);
   }
   .form-container {
-    padding-left: 43px;
+    padding-left: var(--padding-24xl);
     padding-right: var(--padding-25xl);
     box-sizing: border-box;
   }
-  .main-content1 {
+  .main-content2 {
     gap: var(--gap-xl);
   }
   .registro {
@@ -342,7 +342,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .encabezado4 {
+  .encabezado3 {
     padding-left: var(--padding-3xl);
     box-sizing: border-box;
   }
