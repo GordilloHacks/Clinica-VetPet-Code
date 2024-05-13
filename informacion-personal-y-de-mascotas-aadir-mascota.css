@@ -48,7 +48,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.logo-icon10 {
+.logo-icon8 {
   width: 398.8px;
   position: relative;
   max-height: 100%;
@@ -90,7 +90,7 @@
   position: relative;
   font-size: var(--font-size-6xl);
   font-weight: 700;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
   color: var(--color-whitesmoke-100);
   text-align: center;
   display: inline-block;
@@ -125,7 +125,7 @@
   text-align: center;
   font-size: var(--font-size-11xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .seleccione-el-servicio1 {
   height: 100%;
@@ -157,7 +157,7 @@
   background-color: transparent;
   align-self: stretch;
   font-size: var(--font-size-6xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-seagreen-200);
   text-align: center;
   display: inline-block;
@@ -186,7 +186,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: inline-block;
@@ -209,7 +209,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -247,7 +247,7 @@
   top: 0;
   left: 17px;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -269,7 +269,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -296,7 +296,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -333,7 +333,7 @@
   background-color: transparent;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-firebrick);
   text-align: left;
   display: inline-block;
@@ -433,7 +433,7 @@
   padding: var(--padding-6xs) var(--padding-7xl) var(--padding-6xs)
     var(--padding-3xl);
   box-sizing: border-box;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray-100);
   gap: var(--gap-xl);
@@ -462,7 +462,7 @@
   justify-content: flex-start;
   padding: var(--padding-6xs) var(--padding-3xl);
   box-sizing: border-box;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray-100);
   min-width: 250px;
@@ -485,7 +485,7 @@
 .seleccionar-sede4 {
   border: 0;
   box-sizing: border-box;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray-100);
 }
@@ -523,7 +523,7 @@
   flex-direction: row;
   padding: var(--padding-6xs) var(--padding-3xl);
   box-sizing: border-box;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray-100);
   min-width: 250px;
@@ -614,7 +614,7 @@
   top: 6px;
   left: 24px;
   font-size: var(--font-size-xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -628,7 +628,7 @@
   position: relative;
 }
 .add-button-container-wrapper,
-.rectangle-parent15 {
+.rectangle-parent14 {
   width: 701px;
   display: flex;
   flex-direction: row;
@@ -636,7 +636,7 @@
   justify-content: center;
   max-width: 100%;
 }
-.rectangle-parent15 {
+.rectangle-parent14 {
   width: 968px;
   border-radius: var(--br-3xs);
   background-color: var(--color-seagreen-400);
@@ -686,31 +686,31 @@
   text-align: left;
   font-size: var(--font-size-6xl);
   color: var(--color-dimgray-200);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .frame-parent17 {
   width: 1491px;
   flex-direction: column;
   padding: 0 0 0 var(--padding-xl);
 }
-.copyright-202410,
-.copyrigth9 {
+.copyright-20248,
+.copyrigth7 {
   position: relative;
   max-width: 100%;
 }
-.copyrigth9 {
+.copyrigth7 {
   height: 81px;
   width: 1512px;
   background-color: var(--color-seagreen-100);
   display: none;
 }
-.copyright-202410 {
+.copyright-20248 {
   width: 538px;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
 }
-.pie-de-pagina10 {
+.pie-de-pagina8 {
   align-self: stretch;
   background-color: var(--color-seagreen-100);
   display: flex;
@@ -724,7 +724,7 @@
   text-align: center;
   font-size: var(--font-size-3xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
 }
 .informacion-personal-y-de-masc2 {
   width: 100%;
@@ -752,7 +752,7 @@
     flex-wrap: wrap;
     gap: var(--gap-12xl);
   }
-  .rectangle-parent15 {
+  .rectangle-parent14 {
     padding-left: var(--padding-11xl);
     padding-right: var(--padding-22xl);
     box-sizing: border-box;
@@ -768,7 +768,7 @@
   .agrega-una-nueva-mascota-a-tu-parent {
     flex-wrap: wrap;
   }
-  .rectangle-parent15 {
+  .rectangle-parent14 {
     padding-top: var(--padding-15xl);
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
@@ -819,7 +819,7 @@
   .agregar-mascota {
     font-size: var(--font-size-base);
   }
-  .copyright-202410 {
+  .copyright-20248 {
     font-size: var(--font-size-lg);
   }
 }

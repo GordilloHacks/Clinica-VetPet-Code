@@ -44,7 +44,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.logo-icon11 {
+.logo-icon9 {
   width: 398.8px;
   position: relative;
   max-height: 100%;
@@ -86,7 +86,7 @@
   position: relative;
   font-size: var(--font-size-6xl);
   font-weight: 700;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
   color: var(--color-whitesmoke-100);
   text-align: center;
   display: inline-block;
@@ -121,7 +121,7 @@
   text-align: center;
   font-size: var(--font-size-11xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .seleccione-el-servicio2 {
   position: absolute;
@@ -150,7 +150,7 @@
   background-color: transparent;
   align-self: stretch;
   font-size: var(--font-size-6xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-seagreen-200);
   text-align: center;
   display: inline-block;
@@ -179,7 +179,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: inline-block;
@@ -202,7 +202,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -229,7 +229,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -267,7 +267,7 @@
   top: 0;
   left: 15px;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -289,7 +289,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -331,7 +331,7 @@
   background-color: transparent;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-firebrick);
   text-align: left;
   display: inline-block;
@@ -392,6 +392,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
   z-index: 2;
 }
 .pet-names-parent {
@@ -419,7 +420,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -444,13 +445,13 @@
   padding: 0 var(--padding-xl);
 }
 .foto-mascota-conejo-group,
-.rectangle-parent16 {
+.rectangle-parent15 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent16 {
+.rectangle-parent15 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -504,6 +505,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
   z-index: 2;
 }
 .frame-parent30 {
@@ -531,7 +533,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -556,13 +558,13 @@
   padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
 }
 .foto-mascota-pajaro-group,
-.rectangle-parent17 {
+.rectangle-parent16 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent17 {
+.rectangle-parent16 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -638,6 +640,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
   z-index: 2;
 }
 .selected-pet-name-parent {
@@ -665,7 +668,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -690,13 +693,13 @@
   padding: 0 var(--padding-3xl);
 }
 .foto-mascota-perro-group,
-.rectangle-parent18 {
+.rectangle-parent17 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent18 {
+.rectangle-parent17 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -747,6 +750,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
   z-index: 2;
 }
 .frame-parent33 {
@@ -774,7 +778,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -798,7 +802,7 @@
   align-self: stretch;
   padding: 0 var(--padding-8xs);
 }
-.rectangle-parent19 {
+.rectangle-parent18 {
   align-self: stretch;
   border-radius: 0 0 var(--br-11xl) var(--br-11xl);
   background-color: var(--color-gray-100);
@@ -812,7 +816,7 @@
 }
 .foto-mascota-gato-group,
 .frame-parent32,
-.rectangle-parent19 {
+.rectangle-parent18 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -831,6 +835,7 @@
   text-align: center;
   font-size: var(--font-size-4xl);
   color: var(--color-gray-200);
+  font-family: var(--font-phetsarath);
 }
 .frame-parent31 {
   flex: 1;
@@ -850,6 +855,7 @@
   flex-direction: row;
   padding: 0 0 0 var(--padding-xl);
   box-sizing: border-box;
+  font-family: var(--font-roboto);
 }
 .informacion-personal-y-de-masc-container {
   position: absolute;
@@ -870,7 +876,7 @@
   text-align: center;
   font-size: var(--font-size-4xl);
   color: var(--color-gray-200);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .frame-parent24 {
   width: 1491px;
@@ -882,24 +888,24 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.copyright-202411,
-.copyrigth10 {
+.copyright-20249,
+.copyrigth8 {
   position: relative;
   max-width: 100%;
 }
-.copyrigth10 {
+.copyrigth8 {
   height: 81px;
   width: 1512px;
   background-color: var(--color-seagreen-100);
   display: none;
 }
-.copyright-202411 {
+.copyright-20249 {
   width: 538px;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
 }
-.pie-de-pagina11 {
+.pie-de-pagina9 {
   align-self: stretch;
   background-color: var(--color-seagreen-100);
   display: flex;
@@ -913,7 +919,7 @@
   text-align: center;
   font-size: var(--font-size-3xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
 }
 .informacion-personal-y-de-masc3 {
   width: 100%;
@@ -985,7 +991,7 @@
     height: auto;
     min-height: 703;
   }
-  .copyright-202411 {
+  .copyright-20249 {
     font-size: var(--font-size-lg);
   }
 }

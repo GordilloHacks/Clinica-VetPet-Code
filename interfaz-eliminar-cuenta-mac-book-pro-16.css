@@ -48,7 +48,7 @@
   max-width: 100%;
   flex-shrink: 0;
 }
-.logo-icon5 {
+.logo-icon3 {
   width: 398.8px;
   position: relative;
   max-height: 100%;
@@ -87,17 +87,12 @@
   position: relative;
   font-size: var(--font-size-6xl);
   display: inline-block;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
   color: var(--color-whitesmoke-100);
   text-align: center;
   flex-shrink: 0;
   white-space: nowrap;
   z-index: 1;
-}
-.frame-button,
-.frame-header {
-  display: flex;
-  align-items: flex-end;
 }
 .frame-button {
   cursor: pointer;
@@ -105,14 +100,18 @@
   padding: 0;
   background-color: transparent;
   width: 221.4px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-start;
   flex-shrink: 0;
 }
-.frame-header {
+.rectangle-container {
   align-self: stretch;
   background-color: var(--color-seagreen-100);
+  display: flex;
   flex-direction: row;
+  align-items: flex-end;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-7xl) 0;
   box-sizing: border-box;
@@ -121,7 +120,7 @@
   text-align: center;
   font-size: var(--font-size-11xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .view-profile-label-child {
   position: absolute;
@@ -157,7 +156,7 @@
 .volver-atrs1 {
   align-self: stretch;
   font-size: var(--font-size-6xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-seagreen-200);
   text-align: center;
 }
@@ -187,7 +186,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -210,7 +209,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -234,7 +233,7 @@
   top: 0;
   left: 17px;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-firebrick);
   text-align: left;
   display: flex;
@@ -307,6 +306,7 @@
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 22px;
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -389,7 +389,7 @@
   top: 0;
   left: 37px;
   font-size: var(--font-size-xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-whitesmoke-200);
   text-align: center;
   display: flex;
@@ -429,6 +429,7 @@
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   color: var(--color-dimgray-100);
+  font-family: var(--font-roboto);
 }
 .logo-copyright {
   position: absolute;
@@ -460,20 +461,20 @@
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-dimgray-200);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
-.copyright-20245,
-.copyrigth4 {
+.copyright-20243,
+.copyrigth2 {
   position: relative;
   max-width: 100%;
 }
-.copyrigth4 {
+.copyrigth2 {
   height: 81px;
   width: 1518px;
   background-color: var(--color-seagreen-100);
   display: none;
 }
-.copyright-20245 {
+.copyright-20243 {
   width: 536.9px;
   display: inline-block;
   flex-shrink: 0;
@@ -493,7 +494,7 @@
   text-align: center;
   font-size: var(--font-size-3xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
 }
 .interfazeliminarcuenta-macbook {
   width: 100%;
@@ -536,7 +537,7 @@
   .elimina-tu-cuenta {
     font-size: var(--font-size-base);
   }
-  .copyright-20245 {
+  .copyright-20243 {
     font-size: var(--font-size-lg);
   }
 }

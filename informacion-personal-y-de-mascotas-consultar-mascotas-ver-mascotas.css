@@ -51,7 +51,7 @@
   flex-direction: column;
   max-width: 100%;
 }
-.logo-icon9 {
+.logo-icon7 {
   width: 398.8px;
   position: relative;
   max-height: 100%;
@@ -93,7 +93,7 @@
   position: relative;
   font-size: var(--font-size-6xl);
   font-weight: 700;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
   color: var(--color-whitesmoke-100);
   text-align: center;
   display: inline-block;
@@ -128,7 +128,7 @@
   text-align: center;
   font-size: var(--font-size-11xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .go-back-icon2,
 .volver-atrs3 {
@@ -149,7 +149,7 @@
   background-color: transparent;
   align-self: stretch;
   font-size: var(--font-size-6xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-seagreen-200);
   text-align: center;
   display: inline-block;
@@ -179,7 +179,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -213,7 +213,7 @@
   top: 0;
   left: 17px;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -235,7 +235,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -261,7 +261,7 @@
   background-color: transparent;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
   display: flex;
@@ -322,7 +322,7 @@
   flex: 1;
   position: relative;
   font-size: var(--font-size-4xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-firebrick);
   text-align: left;
   display: flex;
@@ -413,7 +413,7 @@
   background-color: transparent;
   align-self: stretch;
   font-size: var(--font-size-6xl);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-seagreen-200);
   text-align: center;
   display: inline-block;
@@ -582,6 +582,9 @@
   min-width: 148px;
   z-index: 1;
 }
+.conejo {
+  font-family: var(--font-phetsarath);
+}
 .especie-conejo-txt-container {
   width: 100%;
 }
@@ -641,6 +644,9 @@
 .frame-parent15 {
   align-self: stretch;
   gap: var(--gap-mid);
+}
+.conejo1 {
+  font-family: var(--font-phetsarath);
 }
 .especie-conejo-txt-container1 {
   width: 100%;
@@ -721,13 +727,13 @@
   z-index: 5;
 }
 .attribute-set,
-.rectangle-parent6 {
+.rectangle-parent5 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent6 {
+.rectangle-parent5 {
   flex: 1;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -770,13 +776,13 @@
   z-index: 2;
 }
 .frame-child14,
-.rectangle-parent7 {
+.rectangle-parent6 {
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
   box-sizing: border-box;
 }
-.rectangle-parent7 {
+.rectangle-parent6 {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -811,13 +817,13 @@
   z-index: 2;
 }
 .frame-parent16,
-.rectangle-parent8 {
+.rectangle-parent7 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent8 {
+.rectangle-parent7 {
   flex: 1;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -910,6 +916,7 @@
   flex-direction: row;
   gap: var(--gap-base);
   max-width: 100%;
+  font-family: var(--font-roboto);
 }
 .basic-header {
   align-self: stretch;
@@ -980,7 +987,7 @@
 .x {
   border: 0;
   outline: 0;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   background-color: transparent;
   height: 33px;
@@ -1074,12 +1081,12 @@
   justify-content: flex-start;
 }
 .frame-child17,
-.rectangle-parent9 {
+.rectangle-parent8 {
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
 }
-.rectangle-parent9 {
+.rectangle-parent8 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1115,7 +1122,7 @@
 .date-value {
   border: 0;
   outline: 0;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   background-color: transparent;
   position: relative;
@@ -1126,14 +1133,14 @@
   padding: 0;
   z-index: 2;
 }
-.rectangle-parent10,
+.rectangle-parent9,
 .status-options,
 .vaccination-options {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent10 {
+.rectangle-parent9 {
   align-self: stretch;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -1241,7 +1248,7 @@
 .x1 {
   border: 0;
   outline: 0;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   background-color: transparent;
   height: 33px;
@@ -1294,12 +1301,12 @@
   justify-content: flex-start;
 }
 .frame-child19,
-.rectangle-parent11 {
+.rectangle-parent10 {
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
 }
-.rectangle-parent11 {
+.rectangle-parent10 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1331,7 +1338,7 @@
 .last-deworming-date {
   border: 0;
   outline: 0;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   font-size: var(--font-size-xl);
   background-color: transparent;
   width: 90px;
@@ -1344,7 +1351,7 @@
   padding: 0;
   z-index: 2;
 }
-.rectangle-parent12 {
+.rectangle-parent11 {
   align-self: stretch;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
@@ -1413,7 +1420,7 @@
   background-color: transparent;
   font-size: var(--font-size-xl);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-steelblue);
   text-align: center;
   justify-content: center;
@@ -1443,7 +1450,7 @@
   margin-left: -39px;
 }
 .frame-child21,
-.rectangle-parent13 {
+.rectangle-parent12 {
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
@@ -1451,7 +1458,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.rectangle-parent13 {
+.rectangle-parent12 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -1486,7 +1493,7 @@
   background-color: transparent;
   font-size: var(--font-size-xl);
   text-decoration: underline;
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
   color: var(--color-steelblue);
   text-align: center;
   justify-content: center;
@@ -1502,7 +1509,7 @@
 }
 .descargar-pdf-parent,
 .records-container,
-.rectangle-parent14 {
+.rectangle-parent13 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -1513,11 +1520,11 @@
   margin-left: -9px;
 }
 .records-container,
-.rectangle-parent14 {
+.rectangle-parent13 {
   align-self: stretch;
   max-width: 100%;
 }
-.rectangle-parent14 {
+.rectangle-parent13 {
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
@@ -1624,31 +1631,31 @@
   text-align: left;
   font-size: var(--font-size-6xl);
   color: var(--color-dimgray-200);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-phetsarath);
 }
 .frame-parent13 {
   width: 1491px;
   flex-direction: column;
   padding: 0 0 0 var(--padding-xl);
 }
-.copyright-20249,
-.copyrigth8 {
+.copyright-20247,
+.copyrigth6 {
   position: relative;
   max-width: 100%;
 }
-.copyrigth8 {
+.copyrigth6 {
   height: 81px;
   width: 1512px;
   background-color: var(--color-seagreen-100);
   display: none;
 }
-.copyright-20249 {
+.copyright-20247 {
   width: 538px;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
 }
-.pie-de-pagina9 {
+.pie-de-pagina7 {
   align-self: stretch;
   background-color: var(--color-seagreen-100);
   display: flex;
@@ -1662,7 +1669,7 @@
   text-align: center;
   font-size: var(--font-size-3xl);
   color: var(--color-gray-100);
-  font-family: var(--font-abeezee);
+  font-family: var(--font-roboto);
 }
 .informacion-personal-y-de-masc1 {
   width: 100%;
@@ -1779,14 +1786,14 @@
   .x {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent9 {
+  .rectangle-parent8 {
     flex-wrap: wrap;
   }
   .date-value,
   .fecha-ultima-vacunacin-container {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent10 {
+  .rectangle-parent9 {
     flex-wrap: wrap;
   }
   .desparasitado,
@@ -1795,14 +1802,14 @@
   .x1 {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent11 {
+  .rectangle-parent10 {
     flex-wrap: wrap;
   }
   .fecha-ultima-desparacitacin-container,
   .last-deworming-date {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent12 {
+  .rectangle-parent11 {
     flex-wrap: wrap;
     padding-right: var(--padding-2xs);
     box-sizing: border-box;
@@ -1814,7 +1821,7 @@
   .download-buttons {
     margin-left: 0;
   }
-  .rectangle-parent13 {
+  .rectangle-parent12 {
     flex-wrap: wrap;
   }
   .carnet-vacunacin,
@@ -1824,12 +1831,12 @@
   .descargar-pdf-parent {
     margin-left: 0;
   }
-  .rectangle-parent14 {
+  .rectangle-parent13 {
     flex-wrap: wrap;
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
   }
-  .copyright-20249 {
+  .copyright-20247 {
     font-size: var(--font-size-lg);
   }
 }
