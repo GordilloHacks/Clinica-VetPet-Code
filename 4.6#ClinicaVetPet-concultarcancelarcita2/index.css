@@ -1,0 +1,755 @@
+.encabezado-fondo-icon {
+  width: 100%;
+  height: 162px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hola-vanessa,
+.icon-person {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.icon-person {
+  height: 58px;
+  width: 64.1px;
+}
+.hola-vanessa {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 33px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.user-name {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+}
+.duck-icon,
+.duck-icon-wrapper,
+.user-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.duck-icon {
+  align-self: stretch;
+  flex-direction: row;
+}
+.duck-icon-wrapper {
+  height: 102px;
+  width: 326.6px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.logo-icon {
+  width: 398.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.app-logo {
+  width: 527.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logo-cerrar-sesion {
+  height: 73px;
+  width: 71.1px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo-cerrar-sesion-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-48xl-2) 0 var(--padding-48xl);
+}
+.cerrar-sesin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 700;
+  font-family: var(--font-roboto);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logout-button {
+  width: 221.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame-group,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-group {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs-1);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.go-back-icon,
+.volver-atrs {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.go-back-icon {
+  height: 46px;
+  width: 50px;
+  object-fit: cover;
+  z-index: 1;
+}
+.volver-atrs {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-roboto);
+  color: var(--color-seagreen-200);
+  text-align: center;
+  display: inline-block;
+  min-width: 103px;
+}
+.frame-div,
+.go-back-parent,
+.volver-atrs-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.volver-atrs-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  margin-left: -10px;
+}
+.frame-div,
+.go-back-parent {
+  flex-direction: row;
+}
+.go-back-parent {
+  flex: 1;
+}
+.frame-div {
+  width: 218px;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.agendar-cita {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-roboto);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+}
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+}
+.go-back-icon-child {
+  height: 85px;
+  width: 248px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+}
+.consultar-o-cancelar {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-roboto);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.go-back-icon1 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-seagreen-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-6xs)
+    var(--padding-mid);
+}
+.dropdown-parent {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+}
+.back-icon,
+.dropdown-parent,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  gap: var(--gap-58xl);
+}
+.back-icon {
+  width: 253px;
+  padding: var(--padding-5xs) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.seleccione-el-servicio {
+  height: 703px;
+  width: 1px;
+  position: relative;
+  object-fit: contain;
+}
+.procedimientos-y-citas {
+  width: 486px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.go-back-icon2,
+.volver-atrs1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.go-back-icon2 {
+  height: 46px;
+  width: 50px;
+  object-fit: cover;
+  z-index: 1;
+}
+.volver-atrs1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-roboto);
+  color: var(--color-seagreen-200);
+  text-align: center;
+  display: inline-block;
+}
+.go-back-group,
+.volver-atrs-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.volver-atrs-container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  margin-left: -10px;
+}
+.go-back-group {
+  width: 212px;
+  flex-direction: row;
+}
+.seleccione-el-servicio1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+}
+.estas-son-tus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 900px;
+  height: 22px;
+}
+.estas-son-tus-citas-vigentes-p-wrapper {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+}
+.null-child {
+  width: 424px;
+  height: 303px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.molly {
+  font-family: var(--font-roboto);
+}
+.mascota-molly {
+  margin: 0;
+}
+.esterilizacin {
+  font-family: var(--font-roboto);
+}
+.procedimiento-esterilizacin {
+  margin: 0;
+}
+.dra {
+  font-family: var(--font-roboto);
+}
+.dra-mara-aristizabal {
+  margin: 0;
+}
+.fecha {
+  font-family: var(--font-roboto);
+}
+.fecha-jueves-08-de-abril-de-2 {
+  margin: 0;
+}
+.hora {
+  font-family: var(--font-roboto);
+}
+.hora-1140-am {
+  margin: 0;
+}
+.sede {
+  font-family: var(--font-roboto);
+}
+.blank-line,
+.sede-vetpet-la-pradera-dosq {
+  margin: 0;
+}
+.mascota-molly-procedimiento-container {
+  position: relative;
+  z-index: 1;
+}
+.null-item {
+  position: absolute;
+  top: 4.1px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 181px;
+  height: 39.1px;
+  z-index: 1;
+}
+.cancelar-cita {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 48px;
+  min-width: 129px;
+  z-index: 2;
+}
+.null5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 48px;
+  width: 181px;
+  position: relative;
+}
+.null4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+}
+.null-inner,
+.null3 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.null3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-smi) var(--padding-9xl)
+    var(--padding-mid);
+  gap: var(--gap-17xl);
+}
+.null-inner {
+  width: 424px;
+  height: 303px;
+  position: relative;
+  display: none;
+}
+.molly1 {
+  font-family: var(--font-roboto);
+}
+.mascota-molly1 {
+  margin: 0;
+}
+.terapia-fsica {
+  font-family: var(--font-roboto);
+}
+.procedimiento-terapia-fsica {
+  margin: 0;
+}
+.dra1 {
+  font-family: var(--font-roboto);
+}
+.dra-mauricio-gmez {
+  margin: 0;
+}
+.fecha1 {
+  font-family: var(--font-roboto);
+}
+.fecha-lunes-24-de-abril-de-20 {
+  margin: 0;
+}
+.hora1 {
+  font-family: var(--font-roboto);
+}
+.hora-1550-pm {
+  margin: 0;
+}
+.sede1 {
+  font-family: var(--font-roboto);
+}
+.blank-line1,
+.sede-vetpet-la-pradera-dosq1 {
+  margin: 0;
+}
+.mascota-molly-procedimiento-container1 {
+  position: relative;
+  z-index: 1;
+}
+.frame-child {
+  position: absolute;
+  top: 4.1px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 181px;
+  height: 39.1px;
+  z-index: 1;
+}
+.cancelar-cita1 {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 48px;
+  min-width: 129px;
+  z-index: 2;
+}
+.vector-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 48px;
+  width: 181px;
+  position: relative;
+}
+.null-inner1,
+.null2,
+.null6 {
+  display: flex;
+  align-items: flex-start;
+}
+.null-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+}
+.null2,
+.null6 {
+  justify-content: flex-start;
+}
+.null6 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-smi) var(--padding-9xl)
+    var(--padding-mid);
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.null2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.null,
+.null1,
+.null2 {
+  max-width: 100%;
+}
+.null1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 871px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.null {
+  width: 992px;
+  height: 333px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.cancel-button,
+.frame-parent2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cancel-button {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.frame-parent1,
+.procedimientos-y-citas-mdicas-parent {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-5);
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+}
+.procedimientos-y-citas-mdicas-parent {
+  padding: 0 0 160px;
+  gap: var(--gap-21xl);
+}
+.back-icon-parent,
+.frame-parent,
+.frame-wrapper1,
+.procedimientos-y-citas-mdicas-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  max-width: calc(100% - 300px);
+}
+.back-icon-parent,
+.frame-parent {
+  max-width: 100%;
+}
+.back-icon-parent {
+  width: 1452px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-roboto);
+}
+.frame-parent {
+  width: 1494px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-12xs);
+}
+.copyright-2024,
+.copyrigth {
+  position: relative;
+  max-width: 100%;
+}
+.copyrigth {
+  height: 81px;
+  width: 1512px;
+  background-color: var(--color-seagreen-100);
+  display: none;
+}
+.copyright-2024 {
+  width: 538px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pie-de-pagina {
+  align-self: stretch;
+  background-color: var(--color-seagreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
+.citas-medicas-concultar-o-ca {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 1150px) {
+  .frame-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hola-vanessa {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .seleccione-el-servicio {
+    display: none;
+  }
+  .null2 {
+    flex-wrap: wrap;
+  }
+  .null {
+    height: auto;
+    min-height: 333;
+  }
+  .frame-wrapper1 {
+    max-width: calc(100% - 276px);
+  }
+}
+@media screen and (max-width: 750px) {
+  .procedimientos-y-citas-mdicas-parent {
+    gap: var(--gap-xl);
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hola-vanessa {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+  .volver-atrs {
+    font-size: var(--font-size-xl);
+  }
+  .agendar-cita,
+  .consultar-o-cancelar {
+    font-size: var(--font-size-lg);
+  }
+  .procedimientos-y-citas,
+  .volver-atrs1 {
+    font-size: var(--font-size-xl);
+  }
+  .cancelar-cita,
+  .cancelar-cita1,
+  .mascota-molly-procedimiento-container,
+  .mascota-molly-procedimiento-container1 {
+    font-size: var(--font-size-base);
+  }
+  .copyright-2024 {
+    font-size: var(--font-size-lg);
+  }
+}
