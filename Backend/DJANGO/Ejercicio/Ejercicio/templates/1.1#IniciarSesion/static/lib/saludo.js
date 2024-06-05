@@ -1,0 +1,1 @@
+alert('Bienvenido a tu veterinaria VETPET')

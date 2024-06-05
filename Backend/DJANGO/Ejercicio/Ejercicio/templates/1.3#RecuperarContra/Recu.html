@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Recuperar.css' %}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mixed:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="recuperar-contrasea-2">
+      <header class="encabezado">
+        <div class="encabezado-fondo"></div>
+        <img class="logo-icon" alt="" src="{% static './public/logo2.png'%}" /> </header>
+      <main class="content">
+        <section class="image-content">
+          <img
+            class="imagen-perros-icon"
+            loading="lazy"
+            alt=""
+            src="{% static './public/imagenPerros.png'%}"  />
+
+          <div class="email-input">
+            <div class="email-form">
+              <div class="email-input1">
+                <div class="titulo">Recuperar contraseña</div>
+              </div>
+              <input
+                class="email-form-child"
+                placeholder="Ingrese correo electrónico:"
+                type="text"
+              />
+
+              <div class="button-container">
+                <div class="boton">
+                  <div class="boton-child"></div>
+                  <button class="validar">Validar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="pie-de-pagina">
+          <div class="copyrigth"></div>
+          <div class="copyright-2024">
+            © Copyright 2024 | Todos los derechos reservados
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

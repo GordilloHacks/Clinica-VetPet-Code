@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'index.css' %}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mixed:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400&display=swap" />
+
+  <script type="text/javascript" src="{% static 'lib/saludo.js' %}"></script>
+  <script type="text/javascript" src="{% static 'lib/inicioSesion.js' %}"></script>
+</head>
+<body>
+  <div class="iniciar-sesion">
+    <section class="main-content">
+      <header class="encabezado">
+        <div class="encabezado-fondo"></div>
+        <img class="logo-icon" loading="lazy" alt="" src="{% static 'public/logo@2x.png' %}" />
+      </header>
+    </section>
+    <section class="login-container">
+      <div class="login-card">
+        <div class="rectangle-parent">
+          <div class="frame-child"></div>
+          <div class="heading">
+            <div class="title-bar">
+              <h3 class="iniciar-sesin">Iniciar sesión</h3>
+            </div>
+            <div class="credentials">
+              <input class="credentials-child" id="email" placeholder="Email:" type="email" />
+              <input class="credentials-item" id="password" placeholder="Contraseña:" type="password" />
+            </div>
+          </div>
+          <div class="action-area">
+            <div class="button-row">
+              <div class="boton">
+                <div class="boton-child"></div>
+                <button id="iniciar-sesion-btn" class="iniciar-sesin1">Iniciar sesión</button>
+              </div>
+              <div class="forgot-password">
+                <button class="olvidaste-tu-contrasea" onclick="OlvidadesContraseña()">¿Olvidaste tu contraseña?</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boton-registrarse">
+          <div class="boton-registrarse-child"></div>
+          <button class="no-tienes-una">¿No tienes una cuenta?</button>
+          <div class="signup-link">
+            <button class="regstrate" onclick="redirectToRegistro()">Regístrate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pie-de-pagina">
+      <div class="copyrigth"></div>
+      <div class="copyright-2024">© Copyright 2024 | Todos los derechos reservados</div>
+    </footer>
+  </div>
+
+  <script>
+    function redirectToRegistro() {
+      window.location.href = '/Registro/';
+    }
+
+    function OlvidadesContraseña() {
+      window.location.href = '/Recu/';
+    }
+  </script>
+</body>
+</html>
